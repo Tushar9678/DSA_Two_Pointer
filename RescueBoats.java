@@ -12,7 +12,6 @@ Output: 3
 Explanation: 3 boats (1, 2), (2) and (3)
 */
 
-//--------------------------------------------------------------- using brutforce approach-----------------------------------------
 import java.util.*;
 
 class RescueBoats{
@@ -29,6 +28,8 @@ class RescueBoats{
 
     }
 
+    //--------------------------------------------------------------- using brutforce approach-----------------------------------------
+    
     static int boats(int[] people, int limit){
         Arrays.sort(people);
         int i = 0;
@@ -53,6 +54,7 @@ class RescueBoats{
     }
 
     //----------------------------------using TWO POINTER approach-----------------------------------------
+    
     static int Boats(int[] people, int limit){
         Arrays.sort(people);
         int i=0;
